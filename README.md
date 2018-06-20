@@ -5,7 +5,7 @@
 - interface: ExampleService: describes everything that Lagom needs to know about how to servce and consume the ExampleService
 
 
-#example-impl:#
+# example-impl: #
 
 - interface ExampleCommand: defines all the commands that the ExampleEntity supports
   + final class ExampleCommand1 implements ExampleCommand
@@ -23,12 +23,12 @@
 - final class ExampleState: the state for the entity
 
 
-#example-stream-api#
+# example-stream-api #
 
 - interface ExampleStreamService: describes everything that Lagom needs to know about how to service and consume the ExampleStreamService service
 
 
-#example-stream-impl#
+# example-stream-impl #
 
 - class ExampleStreamModule: binds the ExampleStreamService so that is can be served
 
