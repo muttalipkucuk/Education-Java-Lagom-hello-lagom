@@ -14,7 +14,7 @@
   
 - class Example**Entity** <ExampleCommand, ExampleEvent, ExampleState>: is an event sourced entity. It has a state.  
 
-- interface Example__Event__: defines all the events that the ExampleEntity supports
+- interface Example __Event__: defines all the events that the ExampleEntity supports
 
 - class ExampleModule: binds the ExampleService so that it can be served
 
