@@ -14,26 +14,26 @@
   
 - class Example**Entity** <ExampleCommand, ExampleEvent, ExampleState>: is an event sourced entity. It has a state.  
 
-- interface Example __Event__: defines all the events that the ExampleEntity supports
+- interface Example**Event**: defines all the events that the ExampleEntity supports
 
-- class ExampleModule: binds the ExampleService so that it can be served
+- class Example**Module**: binds the ExampleService so that it can be served
 
-- class ExampleServiceImpl implements ExampleService: implementation of the ExampleService
+- class Example**ServiceImpl** implements ExampleService: implementation of the ExampleService
 
-- final class ExampleState: the state for the entity
+- final class Example**State**: the state for the entity
 
 
 # example-stream-api #
 
-- interface ExampleStreamService: describes everything that Lagom needs to know about how to service and consume the ExampleStreamService service
+- interface Example**StreamService**: describes everything that Lagom needs to know about how to service and consume the ExampleStreamService service
 
 
 # example-stream-impl #
 
-- class ExampleStreamModule: binds the ExampleStreamService so that is can be served
+- class Example**StreamModule**: binds the ExampleStreamService so that is can be served
 
-- class ExampleStreamRepository
+- class Example**StreamRepository**
 
-- class ExampleStreamServiceImpl: implementation of the ExampleStreamService
+- class Example**StreamServiceImpl**: implementation of the ExampleStreamService
 
-- class ExampeStreamSubscriber: subscribes to the ExampleService event stream
+- class Exampe**StreamSubscriber**: subscribes to the ExampleService event stream
