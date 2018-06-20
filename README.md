@@ -1,4 +1,4 @@
-#example-api:#
+# example-api: #
 
 - interface: ExampleEvent
 
